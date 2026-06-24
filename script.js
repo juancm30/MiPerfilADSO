@@ -1,4 +1,3 @@
-SCRIPT.JS
 const boton = document.getElementById("btnModo");
 
 boton.addEventListener("click", () => {
@@ -7,4 +6,3 @@ boton.addEventListener("click", () => {
 
 const anioActual = new Date().getFullYear();
 document.getElementById("anio").textContent = anioActual;
-
